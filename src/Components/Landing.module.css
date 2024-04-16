@@ -1,0 +1,103 @@
+.leftSection{
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    margin-right: 200px;
+}
+.getStarted{
+    background-color: #249EF0;
+    border-radius: 14px;
+    width: 120px;
+    height: 40px;
+    color: white;
+}
+.learnMore{
+    background-color: transparent;
+    border: 1px solid gray;
+    border-radius: 14px;
+    width: 120px;
+    height: 40px;
+
+}
+.headline{
+    font-size:45px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.leftButtons button{
+    margin-right:10px;
+}
+.studentBox{
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    flex-direction: column;
+    box-shadow: 0px 4px 15.199999809265137px rgba(0, 0, 0, 0.25);
+}
+.studentBoxfirst{
+    font-size: 40px;
+    font-weight: 600;
+}
+.studentBoxsecond{
+    font-size: 20px;
+}
+.secondBox{
+    width: 350px;
+    height: 200px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0px 4px 15.199999809265137px rgba(0, 0, 0, 0.25);
+}
+.firstBoxSection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.ThirdBox{
+    width: 570px;
+    margin-top: 15px;
+    height: 200px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    align-items: center;
+    flex-direction: row;
+    box-shadow: 0px 4px 15.199999809265137px rgba(0, 0, 0, 0.25);
+}
+
+.ThirdBoxfirst{
+    font-weight: 700;
+    font-size: 60px;
+    margin-right: 10px;
+}
+.ThirdBoxThird{
+    font-size: 30px;
+    font-weight: bold;
+}
+.ThirdBoxSecond{
+    font-size: 20px;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.landingMain{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
