@@ -1,9 +1,9 @@
-import DashboardNav from "../Components/dashboard/DashboardNav";
+import Header from "../components/Header/Header";
 
 export default function MyLearning() {
   return (
     <>
-      <DashboardNav />
+      <Header />
       <main>MyLearning</main>
     </>
   );
