@@ -1,6 +1,6 @@
 import ReactStars from "react-stars";
 
-export default function ProductCard() {
+export default function CourseCard() {
   return (
     <div className="p-2 border border-[#606060] max-w-sm rounded-lg space-y-2.5">
       <img src="/1.png" alt="product" className="rounded-md w-full" />

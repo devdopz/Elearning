@@ -1,13 +1,13 @@
-import ProductCard from "../Components/ProductCard";
-import DashboardNav from "../Components/dashboard/DashboardNav";
+import CourseGrid from "../components/Course/CourseGrid";
+import Header from "../components/Header/Header";
 
 export default function Trending() {
   return (
     <>
-      <DashboardNav />
+      <Header />
 
       <main className="max-w-7xl mx-auto py-20">
-        <ProductCard />
+        <CourseGrid />
       </main>
     </>
   );

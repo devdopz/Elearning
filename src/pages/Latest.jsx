@@ -1,9 +1,9 @@
-import DashboardNav from "../Components/dashboard/DashboardNav";
+import Header from "../components/Header/Header";
 
 export default function Latest() {
   return (
     <>
-      <DashboardNav />
+      <Header />
       <main>Latest</main>
     </>
   );

@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 export default function NavItems() {
   return (
-    <div className="flex items-center space-x-6 font-normal text-base">
+    <div className="hidden lg:flex items-center space-x-6 font-normal text-base">
       <Link to="/favorites">
         <Heart />
       </Link>
