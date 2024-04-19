@@ -17,9 +17,9 @@ const NotificationBox = () => {
 
           <div className="mr-4 my-2 font-bold text-xl">$18</div>
           <div className="flex text-sm text-gray-700">
-            <button className="mr-4 bg-orange-500 text-white px-2 rounded-xl">
-              Add to cart
-            </button>
+          <button className=" bg-orange-500 text-white px-3 p-1 mr-5 rounded-md">
+          Add to cart
+        </button>
             <div><img src="/bookmark.svg" className="w-7 h-7" alt="saved" /></div>
           </div>
         </div>

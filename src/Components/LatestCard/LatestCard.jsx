@@ -10,9 +10,9 @@ const LatestCard = () => {
         10 Days of code : The Complete Python Pro Bootcamp
       </h4>
       <p className="text-[#888888]">Mentor : Fathima shamly</p>
-      <button className=" bg-orange-500 text-white px-2 p-1 rounded-xl">
-        Add to cart
-      </button>
+      <button className=" bg-orange-500 text-white px-3 p-1 rounded-md">
+          Add to cart
+        </button>
       <span className="flex items-center space-x-2">
         <h6 className="font-medium">4.7</h6>
         <ReactStars value={5} edit={false} size={18} half={true} />

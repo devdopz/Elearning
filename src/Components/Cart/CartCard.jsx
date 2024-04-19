@@ -21,10 +21,9 @@ const CartCard = () => {
           </div>
           <div className="flex text-sm text-gray-700">
             <div className="mr-4 my-2">Pricing: $10</div>
-            <button className="mr-4 bg-orange-500 text-white px-2 ml-11 rounded-xl">
-              Buy now
-            </button>
-            <div><img src="/public/bookmark-solid.svg" className="w-7 h-7" alt="saved"></img></div>
+            <button className=" bg-orange-500 px-2 text-white rounded-md">
+          Buy now
+        </button>
           </div>
         </div>
   )
