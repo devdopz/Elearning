@@ -1,11 +1,11 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
-import Landing from "./components/Landing";
-import Cart from "./pages/Cart";
-import Favorites from "./pages/Favorites";
+import Landing from "./Components/Landing";
 import Latest from "./pages/Latest";
+import Saved from './pages/Saved';
+import Notification from "./pages/Notification";
+import Carts from "./pages/Carts";
 import MyLearning from "./pages/MyLearning";
-import Notifications from "./pages/Notifications";
 import Trending from "./pages/Trending";
 
 const App = () => {
@@ -17,9 +17,9 @@ const App = () => {
           <Route path="/my-learning" element={<MyLearning />} />
           <Route path="/latest" element={<Latest />} />
           <Route path="/trending" element={<Trending />} />
-          <Route path="/cart" element={<Cart />} />
-          <Route path="/favorites" element={<Favorites />} />
-          <Route path="/notifications" element={<Notifications />} />
+          <Route path="/saved" element={<Saved />} />
+          <Route path="/notification" element={<Notification />} />
+          <Route path="/carts" element={<Carts />} />
         </Routes>
       </BrowserRouter>
     </>
