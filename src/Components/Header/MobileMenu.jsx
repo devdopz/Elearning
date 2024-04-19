@@ -1,6 +1,6 @@
 import { AnimatePresence, motion } from "framer-motion";
-import { AlignJustify, Bell, Heart, ShoppingCart, X } from "lucide-react";
-import { useEffect, useState } from "react";
+import { AlignJustify, Bell, Heart, ShoppingCart, X, User } from "lucide-react";
+import { Profiler, useEffect, useState } from "react";
 import { links } from "../../utils/links";
 import { Link, useLocation } from "react-router-dom";
 
@@ -52,9 +52,14 @@ export default function MobileMenu() {
             </div>
 
             <div className="items-end justify-end flex gap-5">
+            <Link to="/shamly">
+                <User />
+              </Link>
+
               <Link to="/saved">
                 <Heart />
               </Link>
+
               <Link to="/carts">
                 <ShoppingCart />
               </Link>
