@@ -1,9 +1,10 @@
 import React from 'react'
-
+import Header from '../Components/Header/Header'
 const Notification = () => {
   return (
        <div className="notification">
-      <h3 className="heading ml-8 mt-3 text-blue-500 text-lg">Cart's</h3>
+        <Header/>
+      <h3 className="heading ml-8 mt-3 text-blue-500 text-lg">Notifications</h3>
          <div className="border border-gray-400 rounded-lg p-2 mt-5 mb-1 lg:ml-8 md:mx-4 md:ml-30 w-30 h-41">
             <div className='flex'>
               <div className="rounded-lg">

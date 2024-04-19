@@ -7,7 +7,8 @@ import Notification from "./pages/Notification";
 import Carts from "./pages/Carts";
 import MyLearning from "./pages/MyLearning";
 import Trending from "./pages/Trending";
-
+import Aboutus from './pages/Aboutus'
+import Login from "./pages/Login";
 const App = () => {
   return (
     <>
@@ -20,6 +21,8 @@ const App = () => {
           <Route path="/saved" element={<Saved />} />
           <Route path="/notification" element={<Notification />} />
           <Route path="/carts" element={<Carts />} />
+          <Route path="/about" element={<Aboutus />} />
+          <Route path="/login" element={<Login />} />
         </Routes>
       </BrowserRouter>
     </>

@@ -4,15 +4,15 @@ import { Link } from "react-router-dom";
 export default function NavItems() {
   return (
     <div className="hidden lg:flex items-center space-x-6 font-normal text-base">
-      <Link to="/favorites">
+      <Link to="/saved">
         <Heart />
       </Link>
 
-      <Link to="/cart">
+      <Link to="/carts">
         <ShoppingCart />
       </Link>
 
-      <Link to="/notifications">
+      <Link to="/notification">
         <Bell />
       </Link>
     </div>
