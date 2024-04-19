@@ -1,5 +1,5 @@
-import CourseGrid from "../components/Course/CourseGrid";
-import Header from "../components/Header/Header";
+import CourseGrid from "../Components/Course/CourseGrid";
+import Header from "../Components/Header/Header";
 
 export default function Trending() {
   return (
