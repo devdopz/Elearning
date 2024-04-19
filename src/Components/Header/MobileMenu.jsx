@@ -52,14 +52,14 @@ export default function MobileMenu() {
             </div>
 
             <div className="items-end justify-end flex gap-5">
-              <Link to="/favorites">
+              <Link to="/saved">
                 <Heart />
               </Link>
-              <Link to="/cart">
+              <Link to="/carts">
                 <ShoppingCart />
               </Link>
 
-              <Link to="/notifications">
+              <Link to="/notification">
                 <Bell />
               </Link>
             </div>
