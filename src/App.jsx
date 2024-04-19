@@ -9,6 +9,7 @@ import MyLearning from "./pages/MyLearning";
 import Trending from "./pages/Trending";
 import Aboutus from './pages/Aboutus'
 import Login from "./pages/Login";
+import UserProfilePage from "./pages/UserProfile";
 const App = () => {
   return (
     <>
@@ -23,6 +24,7 @@ const App = () => {
           <Route path="/carts" element={<Carts />} />
           <Route path="/about" element={<Aboutus />} />
           <Route path="/login" element={<Login />} />
+          <Route path="/shamly" element={<UserProfilePage />} />
         </Routes>
       </BrowserRouter>
     </>
