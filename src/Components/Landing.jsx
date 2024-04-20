@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Dialog } from '@headlessui/react';
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
 import { NavLink } from 'react-router-dom';
-
+import Chatbot from './ChatBot/Chatbot';
 export default function Landing() {
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
@@ -31,6 +31,7 @@ export default function Landing() {
                             <Bars3Icon className="h-6 w-6" aria-hidden="true" />
                         </button>
                     </div>
+                    <Chatbot/>
                     <div className="hidden lg:flex lg:flex-1 lg:justify-end">
                         <NavLink to="/login" className="text-sm font-semibold leading-6 text-gray-900">
                             Sign in <span aria-hidden="true">&rarr;</span>
