@@ -1,5 +1,6 @@
 import React from 'react'
 import Stars from "react-stars";
+import CartButton from '../CartButton';
 const SavedCard = () => {
   return (
     <div className="border border-gray-400 rounded-lg p-2 mt-3 lg:ml-8 md:mx-4 md:ml-30">
@@ -21,9 +22,7 @@ const SavedCard = () => {
           </div>
           <div className="flex text-sm text-gray-700">
             <div className="mr-4 my-2">Pricing: $10</div>
-            <button className="mr-4 bg-orange-500 text-white px-3 py-1 ml-11 rounded">
-              Add to cart
-            </button>
+            <CartButton/>
             <div><img src="/public/bookmark-solid.svg" className="w-7 h-7" alt="saved"></img></div>
           </div>
         </div>

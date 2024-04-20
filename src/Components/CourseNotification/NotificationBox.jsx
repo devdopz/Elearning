@@ -1,5 +1,5 @@
 import React from 'react'
-
+import CartButton from '../CartButton'
 const NotificationBox = () => {
   return (
       <div className="border p-4 border-gray-400 rounded-lg p-2 mt-5 mb-1 lg:ml-8 md:mx-4 md:ml-30 w-30 h-41 flex flex-col md:flex-row">
@@ -17,9 +17,7 @@ const NotificationBox = () => {
 
           <div className="mr-4 my-2 font-bold text-xl">$18</div>
           <div className="flex text-sm text-gray-700">
-          <button className=" bg-orange-500 text-white px-3 p-1 mr-5 rounded-md">
-          Add to cart
-        </button>
+          <CartButton/>
             <div><img src="/bookmark.svg" className="w-7 h-7" alt="saved" /></div>
           </div>
         </div>
