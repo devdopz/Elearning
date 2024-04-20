@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactStars from "react-stars";
-
+import CartButton from '../CartButton';
 const LatestCard = () => {
   return (
     <div className="p-2 border border-[#606060] max-w-sm rounded-lg space-y-2.5">
@@ -10,9 +10,7 @@ const LatestCard = () => {
         10 Days of code : The Complete Python Pro Bootcamp
       </h4>
       <p className="text-[#888888]">Mentor : Fathima shamly</p>
-      <button className=" bg-orange-500 text-white px-3 p-1 rounded-md">
-          Add to cart
-        </button>
+      <CartButton/>
       <span className="flex items-center space-x-2">
         <h6 className="font-medium">4.7</h6>
         <ReactStars value={5} edit={false} size={18} half={true} />
